@@ -14,5 +14,5 @@
 
 $(call inherit-product, device/oneplus/oneplus2/full_oneplus2.mk)
 
-# Inherit some common Tipsy stuff.
-$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
+# Inherit some common Tesla stuff.
+$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
