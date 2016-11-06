@@ -49,7 +49,7 @@ vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
 
 # Camera
-bin/mm-qcamera-daemon:bin/mm-qcamera-daemon-op
+bin/mm-qcamera-daemon
 vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
@@ -530,6 +530,11 @@ vendor/lib64/libTimeService.so
 # TP Firmware
 etc/firmware/tp/14049/14049_FW_S1302.img
 etc/firmware/tp/14049/14049_FW_S3320_jdi.img
+
+# Widevine
+vendor/lib/libWVStreamControlAPI_L3.so
+vendor/lib/libwvdrm_L3.so
+vendor/lib/mediadrm/libwvdrmengine.so
 
 # Wifi
 bin/cnss-daemon
