@@ -112,3 +112,7 @@ persist.data.iwlan.enable=true
 persist.service.adb.enable=1                                                    
 persist.service.debuggable=1
 persist.sys.usb.config=mtp,adb
+
+# Device
+ro.build.product=OnePlus2
+ro.product.device=oneplus2
