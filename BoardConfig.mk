@@ -29,6 +29,9 @@ PLATFORM_PATH := device/oneplus/oneplus2
 
 BOARD_VENDOR := oneplus
 
+# Use Snapdragon LLVM, if available
+TARGET_USE_SDCLANG := true
+
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
 
@@ -105,7 +108,7 @@ QCOM_BT_USE_SMD_TTY := true
 # Camera
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 USE_DEVICE_SPECIFIC_CAMERA := true
-BOARD_QTI_CAMERA_32BIT_ONLY := true
+TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
