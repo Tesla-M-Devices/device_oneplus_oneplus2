@@ -70,7 +70,6 @@ ro.pip.gated=0
 
 # Graphics
 persist.hwc.mdpcomp.enable=true
-dalvik.vm.heapsize=36m
 ro.qualcomm.cabl=0
 ro.sf.lcd_density=400
 ro.opengles.version=196610
